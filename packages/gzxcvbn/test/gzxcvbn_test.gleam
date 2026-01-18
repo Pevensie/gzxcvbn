@@ -1526,7 +1526,11 @@ pub fn overlapping_matches_test() {
       gzxcvbn.NamedDictionary(
         name: "words",
         kind: gzxcvbn.Words,
-        dictionary: dict.from_list([#("pass", 1), #("password", 2), #("word", 3)]),
+        dictionary: dict.from_list([
+          #("pass", 1),
+          #("password", 2),
+          #("word", 3),
+        ]),
       ),
     ])
     |> gzxcvbn.build()
