@@ -2,7 +2,7 @@ name = "gzxcvbn_en"
 version = "1.0.0"
 description = "English language dictionaries for gzxcvbn"
 licences = ["MIT"]
-repository = { type = "github", user = "Pevensie", repo = "gzxcvbn", path = "packages/gzxcvbn_en", tag_prefix = "en-" }
+repository = { type = "github", user = "Pevensie", repo = "gzxcvbn", path = "packages/gzxcvbn_en", tag-prefix = "en-" }
 links = [
   { title = "gzxcvbn", href = "https://hexdocs.pm/gzxcvbn/index.html" }
 ]

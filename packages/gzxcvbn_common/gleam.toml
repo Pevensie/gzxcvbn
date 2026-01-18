@@ -2,7 +2,7 @@ name = "gzxcvbn_common"
 version = "1.0.0"
 description = "Common passwords and keyboard graphs for gzxcvbn"
 licences = ["MIT"]
-repository = { type = "github", user = "Pevensie", repo = "gzxcvbn", path = "packages/gzxcvbn_common", tag_prefix = "common-" }
+repository = { type = "github", user = "Pevensie", repo = "gzxcvbn", path = "packages/gzxcvbn_common", tag-prefix = "common-" }
 links = [
   { title = "gzxcvbn", href = "https://hexdocs.pm/gzxcvbn/index.html" }
 ]
