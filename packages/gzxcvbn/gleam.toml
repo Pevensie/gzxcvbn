@@ -1,0 +1,15 @@
+name = "gzxcvbn"
+version = "1.0.0"
+description = "Password strength estimation for Gleam, inspired by zxcvbn"
+licences = ["MIT"]
+repository = { type = "github", user = "Pevensie", repo = "gzxcvbn", path = "packages/gzxcvbn", tag_prefix = "core-" }
+links = [
+  { title = "gzxcvbn_common", href = "https://hexdocs.pm/gzxcvbn_common/index.html" },
+  { title = "gzxcvbn_en", href = "https://hexdocs.pm/gzxcvbn_en/index.html" }
+]
+
+[dependencies]
+gleam_stdlib = ">= 0.44.0 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"

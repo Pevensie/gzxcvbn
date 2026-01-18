@@ -1,0 +1,9 @@
+*.beam
+*.ez
+app/build
+packages/*/build
+scripts/*/build
+erl_crash.dump
+
+# opensrc - source code for packages
+opensrc/

@@ -1,0 +1,15 @@
+name = "gzxcvbn_en"
+version = "1.0.0"
+description = "English language dictionaries for gzxcvbn"
+licences = ["MIT"]
+repository = { type = "github", user = "Pevensie", repo = "gzxcvbn", path = "packages/gzxcvbn_en", tag_prefix = "en-" }
+links = [
+  { title = "gzxcvbn", href = "https://hexdocs.pm/gzxcvbn/index.html" }
+]
+
+[dependencies]
+gleam_stdlib = ">= 0.44.0 and < 2.0.0"
+gzxcvbn = ">= 1.0.0 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
