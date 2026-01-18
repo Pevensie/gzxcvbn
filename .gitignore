@@ -7,3 +7,4 @@ erl_crash.dump
 
 # opensrc - source code for packages
 opensrc/
+.DS_Store
